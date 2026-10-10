@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <style>
+        
+        body {
+            text-align: center; 
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            margin: 0 auto; 
+            text-align: left;
+        }
+        .rata-kiri {
+            display: inline-block;
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Profil Mahasiswa</h1>
+    <p>Halo! Selamat datang di halaman profil saya. Saya adalah mahasiswa yang sedang mempelajari dasar-dasar pemrograman web.</p>
+
+    <h3>Biodata Diri</h3>
+    <div class="rata-kiri">
+        <ul>
+            <li><strong>Nama Lengkap:</strong> Rafi Kurnia Adzan</li>
+            <li><strong>Program Studi:</strong> Teknologi Informasi</li>
+            <li><strong>Kelas/Semester:</strong> TI B / Semester 3</li>
+            <li><strong>Perguruan Tinggi:</strong> Universitas Muhammadiyah Purworejo</li>
+            <li><strong>Domisili:</strong> Desa Pacor RT 01 RW 04, Kutoarjo, Purworejo</li>
+        </ul>
+    </div>
+
+    <br><br>
+    
+    <img src="Foto rafi.jpeg" alt="Foto Profil Rafi" width="200">
+
+    <h2>Hobi Saya</h2>
+    <div class="rata-kiri">
+        <ul>
+            <li>Membaca Buku</li>
+            <li>Bersepeda</li>
+            <li>Mendengarkan musik</li>
+        </ul>
+    </div>
+
+    <h2>Informasi Kampus</h2>
+    <p>
+        Kunjungi website resmi kampus saya di: 
+        <a href="https://umpwr.ac.id" target="_blank">Website Kampus</a>
+    </p>
+
+    <h2>Daftar Mata Kuliah</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>No</th>
+            <th>Kode MK</th>
+            <th>Nama Mata Kuliah</th>
+            <th>SKS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MK001</td>
+            <td>Pemrograman Web Dasar</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MK002</td>
+            <td>Praktikum Struktur Data</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MK003</td>
+            <td>APSI</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MK004</td>
+            <td>Teori Struktur Data</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>MK005</td>
+            <td>Sistem Operasi Terintegrasi</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <h2>Form Kontak / Pendaftaran</h2>
+    <div class="rata-kiri">
+        <form action="" method="post">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+            <label for="laki">Laki-laki</label><br>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+            <label for="perempuan">Perempuan</label><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+</body>
+</html>
